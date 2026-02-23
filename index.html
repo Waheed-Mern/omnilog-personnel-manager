@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover the Professional Smart-Logger, your ultimate solution for efficient data logging and analysis. Enhance productivity with cutting-edge technology today!"
+    />
+    <title>OmniLog | Professional Data Intelligence</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+    <link rel="stylesheet" href="src/css/global.css">
+    <link rel="icon" href="public/favicon.ico">
+  </head>
+  <body>
+    <nav>
+      <h1>The Professional Smart-Logger</h1>
+      <p>Total Counter : <span id="count">0</span></p>
+    </nav>
+    <main>
+      <div class="Entry-System">
+        <input class="name" type="text" name="name" id="name" required autocomplete="name" placeholder="Employee Name" maxlength="30">
+        <input class="designation" type="text" name="designation" id="designation" required autocomplete="designation" placeholder="Enter Designation">
+        <input class="salary" type="number" name="salary" id="salary" required placeholder="Salary">
+        <button class="btn">Add</button>
+      </div>
+      <div class="Live-List">
+    <h2>Employee Directory</h2>
+    <ul id="employeeList">
+      </ul>
+  </div>
+    </main>
+    <footer>©️ Copyright2026</footer>
+    <script src="src/js/main.js"></script>
+  </body>
+</html>
